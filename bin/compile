@@ -17,7 +17,7 @@ FFMPEG_VERSION="${FFMPEG_VERSION:-3.3.2}"
 FFMPEG_S3_BUCKET="${FFMPEG_S3_BUCKET:-kc-heroku-buildpack-binaries}"
 FFMPEG_URL="https://s3.amazonaws.com/${FFMPEG_S3_BUCKET}/ffmpeg/${STACK:-cedar-14}/${FFMPEG_VERSION}.tar.xz"
 
-apt-get install libavcodec-extra-53
+apt-get install libavcodec-extra-52
 
 # Install FFmpeg
 install_ffmpeg "${BUILD_DIR}" "${FFMPEG_VERSION}" "${FFMPEG_URL}"
