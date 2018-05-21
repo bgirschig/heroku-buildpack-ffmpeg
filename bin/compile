@@ -3,5 +3,5 @@
 # fail fast
 set -e
 
-sudo apt-get update
+apt-get update
 apt-get install libav-tools
