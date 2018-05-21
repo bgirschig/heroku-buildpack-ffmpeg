@@ -3,5 +3,6 @@
 # fail fast
 set -e
 
+mkdir /var/lib/apt/lists/partial
 apt-get update
 apt-get install libav-tools
