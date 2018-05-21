@@ -3,4 +3,4 @@
 # fail fast
 set -e
 
-apt-get install ffmpeg
+apt-get install libav-tools
